@@ -1,0 +1,5 @@
+Model,Accuracy (%),ECE,Energy/img (J),Accuracy gain vs BioGater (pp),ECE reduction vs BioGater,Energy reduction vs BioGater (J)
+RandomOp Mixer,93.1,0.058,0.82,3.6,0.037,0.31
+ConvMixer (static),94.6,0.046,0.67,2.1,0.025,0.16
+Pruned ResNet-18,92.8,0.063,0.57,3.9,0.042,0.06
+HistoDyn::BioGater,96.7,0.021,0.51,0.0,0.0,0.0

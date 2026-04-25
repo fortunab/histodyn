@@ -1,0 +1,4 @@
+Model,GADS
+RandomOp Mixer,2.91
+ConvMixer (static),1.87
+HistoDyn::BioGater,3.22

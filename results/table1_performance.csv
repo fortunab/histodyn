@@ -1,0 +1,5 @@
+Model,Accuracy (%),ECE,Energy/img (J)
+RandomOp Mixer,93.1,0.058,0.82
+ConvMixer (static),94.6,0.046,0.67
+Pruned ResNet-18,92.8,0.063,0.57
+HistoDyn::BioGater,96.7,0.021,0.51
