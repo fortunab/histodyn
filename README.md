@@ -47,7 +47,7 @@ These files contain:
 - energy/image
 - confusion matrix
 
-The reconstructed accuracies are:
+The accuracies are:
 
 | Dataset | RandomOp Mixer | ConvMixer | Pruned ResNet-18 | BioGater |
 |---|---:|---:|---:|---:|
