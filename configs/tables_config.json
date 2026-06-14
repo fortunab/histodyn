@@ -1,0 +1,77 @@
+{
+  "table1_colorectal": {
+    "caption": "Performance comparison on colorectal histology dataset",
+    "rows": {
+      "RandomOp Mixer": {
+        "cm": [[464, 36], [36, 464]],
+        "ECE": 0.058,
+        "Energy/img (J)": 0.82
+      },
+      "ConvMixer (static)": {
+        "cm": [[471, 29], [28, 472]],
+        "ECE": 0.046,
+        "Energy/img (J)": 0.67
+      },
+      "Pruned ResNet-18": {
+        "cm": [[462, 38], [37, 463]],
+        "ECE": 0.063,
+        "Energy/img (J)": 0.57
+      },
+      "HistoDyn::BioGater (ours)": {
+        "cm": [[481, 19], [19, 481]],
+        "ECE": 0.021,
+        "Energy/img (J)": 0.51
+      }
+    }
+  },
+  "table2_polypgen": {
+    "caption": "Performance comparison on the PolypGen dataset",
+    "rows": {
+      "RandomOp Mixer": {
+        "cm": [[457, 43], [43, 457]],
+        "ECE": 0.061,
+        "Energy/Image (J)": 0.88
+      },
+      "ConvMixer (static)": {
+        "cm": [[466, 34], [34, 466]],
+        "ECE": 0.049,
+        "Energy/Image (J)": 0.72
+      },
+      "Pruned ResNet-18": {
+        "cm": [[462, 38], [37, 463]],
+        "ECE": 0.055,
+        "Energy/Image (J)": 0.63
+      },
+      "HistoDyn::BioGater (ours)": {
+        "cm": [[479, 21], [21, 479]],
+        "ECE": 0.024,
+        "Energy/Image (J)": 0.54
+      }
+    }
+  },
+  "table3_cervical": {
+    "caption": "Performance comparison on the cervical cytology dataset",
+    "rows": {
+      "RandomOp Mixer": {
+        "cm": [[449, 51], [52, 448]],
+        "ECE": 0.068,
+        "Energy/Image (J)": 0.85
+      },
+      "ConvMixer (static)": {
+        "cm": [[458, 42], [43, 457]],
+        "ECE": 0.052,
+        "Energy/Image (J)": 0.70
+      },
+      "Pruned ResNet-18": {
+        "cm": [[454, 46], [46, 454]],
+        "ECE": 0.059,
+        "Energy/Image (J)": 0.61
+      },
+      "HistoDyn::BioGater (ours)": {
+        "cm": [[472, 28], [29, 471]],
+        "ECE": 0.027,
+        "Energy/Image (J)": 0.52
+      }
+    }
+  }
+}

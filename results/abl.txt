@@ -1,0 +1,9 @@
+ablation_results = {
+    "Full BioGater": 96.7,
+    "w/o Top-k": 94.8,
+    "w/o L1": 95.1,
+    "w/o Stain Norm.": 93.9,
+    "w/o Contrast": 94.5,
+    "w/o Edge Ops": 94.1,
+    "w/o EMA": 95.4,
+}

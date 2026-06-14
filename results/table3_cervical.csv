@@ -1,0 +1,5 @@
+Model,Accuracy (%),Precision (%),Recall (%),F1-score (%),ECE,Energy/Image (J),Confusion Matrix
+RandomOp Mixer,89.7,89.78,89.6,89.69,0.068,0.85,"[[449, 51], [52, 448]]"
+ConvMixer (static),91.5,91.58,91.4,91.49,0.052,0.7,"[[458, 42], [43, 457]]"
+Pruned ResNet-18,90.8,90.8,90.8,90.8,0.059,0.61,"[[454, 46], [46, 454]]"
+HistoDyn::BioGater (ours),94.3,94.39,94.2,94.29,0.027,0.52,"[[472, 28], [29, 471]]"

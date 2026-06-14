@@ -1,0 +1,8 @@
+Configuration,Accuracy (%),Drop from Full (%)
+Full BioGater,96.7,0.0
+w/o Top-k,94.8,1.9
+w/o L1,95.1,1.6
+w/o Stain Norm.,93.9,2.8
+w/o Contrast,94.5,2.2
+w/o Edge Ops,94.1,2.6
+w/o EMA,95.4,1.3
